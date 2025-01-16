@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="techida | IT Solutions & Business Services HTML landing page template ">
+  <!-- fav icon -->
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- bootstarp css file -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- aos.css file -->
+  <link rel="stylesheet" href="css/aos.css">
+
+  <!-- fancybox css file -->
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <!-- owl carousel css file -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <!--  toasts file     -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="css/bootstrap-icons/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- main css file -->
+  <link rel="stylesheet" href="css/style.css">
+  <title> techida | IT Solutions & Business Services HTML template </title>
+</head>
+
+<body>
+
+  <!-- start preLoader -->
+  <div id="preloader">
+    <svg id="mainSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+      <defs>
+        <radialGradient id="mainGrad" cx="400" cy="300" fx="400" fy="300" r="100" gradientUnits="userSpaceOnUse">
+          <stop offset=".68" stop-color="#21df51" />
+          <stop offset=".72" stop-color="#3add63" />
+          <stop offset=".77" stop-color="#4fdd73" />
+          <stop offset=".82" stop-color="#66db83" />
+          <stop offset=".88" stop-color="#7cd893" />
+          <stop offset=".93" stop-color="#95d8a6" />
+          <stop offset=".99" stop-color="#bde6c7" />
+          <stop offset="1" stop-color="#e3f1e7" />
+        </radialGradient>
+      </defs>
+      <circle id="fillDot" cx="400" cy="300" fill="#21df51" r="100" />
+      <circle id="gradDot" cx="400" cy="300" fill="url(#mainGrad)" r="100" />
+    </svg>
+  </div>
+  <!-- end preLoader -->
+
+  <!-- start scroll to top button -->
+  <div id="progress">
+    <span id="progress-value"><i class="bi bi-arrow-up-short"></i></span>
+  </div>
+  <!-- end scroll to top button -->
+
+
+  <!-- ======= start Header ======= -->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand " href="#"><img src="images/logo/logo.png" class="logo" alt="LOGO" width="150px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list" id="menu"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav ms-auto" id="navbar">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Soluciones
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item py-2" href="index.html">#factura</a></li>
+                <li><a class="dropdown-item py-2" href="index-2.html">#descarga</a></li>
+                <li><a class="dropdown-item py-2" href="index-3.html">#reporta</a></li>
+                <li><a class="dropdown-item py-2" href="index-3.html">#compulsa</a></li>
+                <li><a class="dropdown-item py-2" href="index-3.html">#alerta</a></li>
+                <li><a class="dropdown-item py-2" href="index-3.html">#conecta</a></li>
+                <li><a class="dropdown-item py-2" href="index-3.html">#balancea</a></li>
+                <li><a class="dropdown-item py-2" href="index-3.html">#API</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="whoweare.html">¿Quiénes somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="vision.html">Visión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mision.html">Misión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Ventas</a>
+            </li>
+          </ul>
+          <div class="d-flex ms-auto">
+            <a class="btn" href="register.html">Contáctanos</a>
+            <button id="mode-toggle" class="btn-light-mode switch-button"><i id="mode-icon"
+                class="bi bi-moon-fill"></i></button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- ======= end Header ======= -->
+
+  <!-- ============== Start Solutions section ========== -->
+  <section class="container services py-5" id="whoweare">
+    <div class="heading">
+      <h4 class="pretitle" data-aos="fade-up">
+        Soluciones
+      </h4>
+      <h1 class="title col-lg-10 col-12" data-aos="fade-up" data-aos-delay="100">
+        ¿Qué ofrecemos?
+      </h1>
+        Contamos con las soluciones más innovadoras empresariales y fiscales 
+		para satisfacer sus necesidades en facturación electrónica y desarrollos a la medida.
+      </p>
+    </div>
+      <p class="col-lg-7 col-12" data-aos="fade-up" data-aos-delay="150">
+    <div class="row gy-4 gx-4 ">
+      <!-- service number 1 -->
+      <div class="col-md-6 col-12 col-lg-4 mx-auto ">
+        <div class="box box-service box-hover" data-aos="fade-right" data-aos-delay="250">
+          <div class="box-icon my-2">
+            <i class="nav-icon fa-solid fa-file-invoice"></i>
+          </div>
+          <h2 class="title-2 my-2 ">#factura</h2>
+          <p>Emite facturas (comprobantes de ingreso, egreso, nomina, complementos de pago, carta porte), 
+		   timbres sin vigencia, agrega addendas a tu paquete y cancelaciones sin costo adicional.</p>
+          <a href="service-single.html" class="my-2 learn-more">contrata <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class=" col-md-6 col-lg-4 mx-auto" data-aos="fade-down" data-aos-delay="200">
+        <!-- service number 2 -->
+        <div class="box box-service box-hover">
+          <div class="box-icon my-2">
+            <i class="nav-icon fas fas fa-download"></i>
+          </div>
+          <h2 class="title-2 my-2 ">#descarga</h2>
+          <p>Descarga todos los comprobantes emitidos y recibidos directamente del SAT y ten
+            la certeza de saber si están vigentes o cancelados</p>
+          <a href="service-single.html" class="my-2 learn-more">contrata <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mx-auto" data-aos="fade-left" data-aos-delay="250">
+        <!-- service number 3 -->
+        <div class="box box-service  box-hover">
+          <div class="box-icon my-2">
+            <i class="nav-icon fas fas fa-newspaper"></i>
+          </div>
+          <h2 class="title-2 my-2 ">#reporta</h2>
+          <p>Genera reportes personalizados de toda la información contenida en los XML
+            tanto de tus comprobantes emitidos como de tus comprobantes recibidos</p>
+          <a href="service-single.html" class="my-2 learn-more">contrata <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class=" col-md-6 col-lg-4 mx-auto" data-aos="fade-right" data-aos-delay="350">
+        <!-- service number 4 -->
+        <div class="box box-service box-hover">
+          <div class="box-icon my-2">
+            <i class="nav-icon fas fas fa-solid fa-book-skull"></i>
+          </div>
+          <h2 class="title-2 my-2 ">#alerta</h2>
+          <p>Recibe alertas automáticas cuando alguno de tus proveedores o clientes aparezca
+            en alguna de las listas negras del SAT (Artículo 69A y 69B del Código Fiscal de la Federación) </p>
+          <a href="service-single.html" class="my-2 learn-more">contrata <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class=" col-md-6 col-lg-4 mx-auto" data-aos="fade-up" data-aos-delay="300">
+        <!-- service number 5 -->
+        <div class="box  box-service box-hover">
+          <div class="box-icon my-2">
+            <i class="nav-icon fas fa-solid fa-code-compare"></i>
+          </div>
+          <h2 class="title-2 my-2 ">#compulsa</h2>
+          <p>Identifica discrepancias entre la información de tu ERP vs la información que el SAT 
+		  tiene de tu empresa ó vs los comprobantes que tu PAC ha emitido o recibido en tu nombre</p>
+          <a href="service-single.html" class="my-2 learn-more">contrata <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class=" col-md-6  col-lg-4 mx-auto ">
+        <!-- service number 6 -->
+        <div class="box box-service box-hover" data-aos="fade-left" data-aos-delay="350">
+          <div class="box-icon my-2">
+            <i class="nav-icon fas fa-solid fa-inbox"></i>
+          </div>
+          <h2 class="title-2 my-2 ">#recepción</h2>
+          <p>Habilita tu propio portal para que tus proveedores ingresen a cobro sus facturas, 
+            deja que AuditCFDI se encargue de validar fiscalmente las facturas de tus proveedores</p>
+          <a href="service-single.html" class="my-2 learn-more">contrata <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class=" col-md-6  col-lg-4 mx-auto ">
+        <!-- service number 6 -->
+        <div class="box box-service box-hover" data-aos="fade-left" data-aos-delay="350">
+          <div class="box-icon my-2">
+            <i class="nav-icon fas fa-solid fa-receipt"></i>
+          </div>
+          <h2 class="title-2 my-2 ">#kiosko</h2>
+          <p>Brinda a tus clientes la posibilidad de que ellos mismos generen su factura sobre productos y/o 
+		  servicios que hayan adquirido contigo a partir de un código impreso en tu ticket de venta</p>
+          <a href="service-single.html" class="my-2 learn-more">contrata <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class=" col-md-6  col-lg-4 mx-auto ">
+        <!-- service number 6 -->
+        <div class="box box-service box-hover" data-aos="fade-left" data-aos-delay="350">
+          <div class="box-icon my-2">
+            <i class="nav-icon fas fa-solid fa-cash-register"></i>
+          </div>
+          <h2 class="title-2 my-2 ">#cobranza</h2>
+          <p>Gestiona la cobranza de una forma eficaz y conoce en todo momento el pronóstico 
+            de ingresos de tu empresa a partir de las promesas de pago de tu clientes</p>
+          <a href="service-single.html" class="my-2 learn-more">contrata <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class=" col-md-6  col-lg-4 mx-auto ">
+        <!-- service number 6 -->
+        <div class="box box-service box-hover" data-aos="fade-left" data-aos-delay="350">
+          <div class="box-icon my-2">
+            <i class="nav-icon fas fa-solid fa-scale-balanced"></i>
+          </div>
+          <h2 class="title-2 my-2 ">#balanceador</h2>
+          <p>Si la emisión de comprobantes desde tu ERP es de volúmenes muy alto, puedes utilizar nuestro 
+            balanceador de timbrado para distribuir el timbrado en más de un PAC</p>
+          <a href="service-single.html" class="my-2 learn-more">contrata <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class=" col-md-6  col-lg-4 mx-auto ">
+        <!-- service number 6 -->
+        <div class="box box-service box-hover" data-aos="fade-left" data-aos-delay="350">
+          <div class="box-icon my-2">
+            <i class="nav-icon fas fa-brands fa-quinscape"></i>
+          </div>
+          <h2 class="title-2 my-2 ">#api</h2>
+          <p>Todos nuestros servicios los tenemos disponibles a través de una API para que 
+            puedas integrarlos directamente con tu ERP</p>
+          <a href="service-single.html" class="my-2 learn-more">contrata <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>	  
+    </div>
+  </section>
+  <!-- ============== End Solutions section ========== -->
+
+
+  <!-- ============== Start Footer section ========== -->
+  <div class="footer">
+    <div class="container">
+      <div class="row justify-content-center align-items-center g-4">
+        <div class="col-12 col-lg-3 col-md-6 mx-auto my-4">
+          <div class="box">
+            <a href="#" class="logo "><img class="my-2" src="images/logo/logo.png" alt=""></a>
+            <p>Todo lo que necesita tu empresa relacionado con facturación electrónica.</p>
+            <h4 class="my-2">
+              Síguenos
+            </h4>
+            <div class="social d-flex gap-2">
+              <div class="icon"><i class="bi bi-facebook"></i></div>
+              <div class="icon"><i class="bi bi-instagram"></i></div>
+              <div class="icon"><i class="bi bi-linkedin"></i></div>
+              <div class="icon"><i class="bi bi-youtube"></i></div>
+              <div class="icon"><i class="i-bi-twitter-x"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-2 col-md-6 mx-auto d-flex flex-column my-4 gap-3">
+          <h4>Mapa del sitio</h4>
+          <ul class="d-flex flex-column gap-3">
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a 
+				href="index.html">Inicio</a>
+            </li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a
+                href="solutions.html">Soluciones</a></li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a
+                href="whoweare.html">¿Quiénes somos?</a></li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a
+                href="vision.html">Visión</a></li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a
+                href="mision.html">Misión</a></li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a
+                href="contact.html">Ventas</a></li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a
+                href="contact.html">Contáctanos</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-2 col-md-6 mx-auto d-flex flex-column my-4 gap-3">
+          <h4>Síguenos</h4>
+          <ul class="d-flex flex-column gap-3">
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">facebook</a>
+            </li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">instagram</a>
+            </li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">linkedin</a>
+			</li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">youtube</a>
+			</li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">twitter (X)</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-2 col-md-6 mx-auto d-flex flex-column my-4 gap-3">
+          <h4>Nuestros servicios</h4>
+          <ul class="d-flex flex-column gap-3">
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">#actura</a>
+            </li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">#descarga</a>
+            </li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">#reporta</a>
+            </li>			
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">#alerta</a>
+			</li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">#compulsa</a>
+			</li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-2 col-md-6 mx-auto d-flex flex-column my-4 gap-3">
+          <h4>Nuestros servicios</h4>
+          <ul class="d-flex flex-column gap-3">
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">#recepción</a>
+			</li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">#kiosko</a>
+			</li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">#cobranza</a>
+			</li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">#balanceador</a>
+			</li>
+            <li class="d-flex align-items-center gap-2"><i class="bi bi-chevron-right"></i><a href="#">#api</a>
+			</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="copyrights ">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 d-flex justify-content-start">
+            <p class="creadits">
+              &copy; 2024
+              Creado por: <a href="#">AuditCFDI</a>
+            </p>
+          </div>
+          <div class="col-12 col-md-6 d-flex justify-content-end">
+            <div>
+              <a href="terms-of-use.html">Términos de uso</a>
+              | <a href="privacy-policy.html">Política de Privacidad</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ============== end Footer section ========== -->
+
+
+  <!--  JQuery file     -->
+  <script src="js/jquery-3.6.1.min.js"></script>
+
+  <!-- bootstrap min js -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!--  toasts file     -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+  <!--  owl carousel    -->
+  <script src="js/owl.carousel.min.js"></script>
+
+  <!-- aos file    -->
+  <script src="js/aos.js"></script>
+
+  <!-- gsap file    -->
+  <script src="js/gsap.min.js"></script>
+
+  <!--  counter     -->
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/jquery.waypoints.js"></script>
+
+  <!-- particles js file  -->
+  <script src="js/particles.min.js"></script>
+
+  <!-- jquery isotope file -->
+  <script src="js/isotope.min.js"></script>
+
+  <!-- jquery fancybox file -->
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <!--  main js file  -->
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
+
+</html>
